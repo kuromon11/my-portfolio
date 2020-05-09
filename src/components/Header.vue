@@ -5,11 +5,14 @@
         <p class="headerLeftTitle">〜 Kuromon's Portfolio 〜</p>
       </div>
       <div class="headerRight">
-        
-        <a href="#" class="headerRightComp" id="nav-home">Home</a>
+        <!-- <a href="#" class="headerRightComp" id="nav-home">Home</a>
         <a href="#" class="headerRightComp" id="nav-about">About</a>
         <a href="#" class="headerRightComp" id="nav-works">Works</a>
-        <a href="#" class="headerRightComp" id="nav-skill">Skill</a>
+        <a href="#" class="headerRightComp" id="nav-skill">Skill</a> -->
+        <router-link to="/" class="headerRightComp" id="nav-home">Home</router-link>
+        <router-link to="/about" class="headerRightComp" id="nav-home">About</router-link>
+        <router-link to="/works" class="headerRightComp" id="nav-home">Works</router-link>
+        <router-link to="/skill" class="headerRightComp" id="nav-home">Skill</router-link>
       </div>
     </div>
   </div>

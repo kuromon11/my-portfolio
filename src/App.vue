@@ -1,20 +1,18 @@
 <template>
   <div id=#app>
     <Header></Header>
-    <HomeComp></HomeComp>
-    <AboutComp></AboutComp>
-    <WorksComp></WorksComp>
-    <SkillComp></SkillComp>
+    <transition
+      name="fade"
+      mode="out-in"
+      @before-enter="beforeEnter"
+    ></transition>
+    <router-view></router-view>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
-import HomeComp from './components/HomeComp'
-import AboutComp from './components/AboutComp'
-import WorksComp from './components/WorksComp'
-import SkillComp from './components/SkillComp'
 import Footer from './components/Footer'
 // リセットCSS
 import 'normalize.css'
@@ -22,12 +20,13 @@ import 'normalize.css'
 export default {
   components: {
     Header,
-    HomeComp,
-    AboutComp,
-    WorksComp,
-    SkillComp,
     Footer
   },
+  methods: {
+    beforeEnter() {
+      this.$root.$emit("triggerScroll");
+    }
+  }
 }
 </script>
 
