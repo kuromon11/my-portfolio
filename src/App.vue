@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <Header></Header>
     <p v-if="msg.length > 0">
       {{msg}}
