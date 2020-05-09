@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Header from "./components/Header";
+import HomeComp from './components/HomeComp'
+
 
 Vue.use(Router);
 
@@ -10,7 +11,7 @@ export default new Router({
     {
       path: "/",
       components: {
-        default: Header
+        default: HomeComp
       }
     },
   ]

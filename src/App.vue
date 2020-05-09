@@ -1,34 +1,31 @@
 <template>
-  <div>
+  <div id=#app>
     <Header></Header>
-    <p v-if="msg.length > 0">
-      {{msg}}
-    </p>
-    <p v-else>
-      no text
-    </p>
-    <input type="text" v-model="msg">
-    <button @click="clear()">clear</button>
+    <HomeComp></HomeComp>
+    <AboutComp></AboutComp>
+    <WorksComp></WorksComp>
+    <SkillComp></SkillComp>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
+import HomeComp from './components/HomeComp'
+import AboutComp from './components/AboutComp'
+import WorksComp from './components/WorksComp'
+import SkillComp from './components/SkillComp'
+import Footer from './components/Footer'
 
 export default {
   components: {
-    Header
+    Header,
+    HomeComp,
+    AboutComp,
+    WorksComp,
+    SkillComp,
+    Footer
   },
-  data () {
-    return {
-      msg: 'Hello World!'
-    };
-  },
-  methods: {
-    clear () {
-      this.msg = ''
-    }
-  }
 }
 </script>
 

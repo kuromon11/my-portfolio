@@ -1,8 +1,8 @@
 <template>
-  <div id=#app>
+  <div>
     <div class="header">
       <div class="headerLeft">
-        <h1 class="headerLeftTitle">ポートフォリオ</h1>
+        <p class="headerLeftTitle">ポートフォリオ</p>
       </div>
       <div class="headerRight">
         <a href="#" id="nav-about">About</a>
