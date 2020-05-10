@@ -8,11 +8,11 @@
           <img src="../assets/mypicture2.jpg" class="aboutProfileInfoImage">
           <div class="aboutProfileInfoOverview">
             <p>名前：Kuromori Yoshiki</p>
-            <p>ニックネーム：くろもん
+            <p>ニックネーム：くろもん<br>Twitter：
               <a href="https://twitter.com/black_kuromon" class="worksContentInfoSite">@black_kuromon</a>
             </p>
             <p>誕生日：1993年11月19日 26歳</p>
-            <p>強み：ハングリー精神・課題発見能力</p>
+            <p>強み：ハングリー精神・課題発見力</p>
           </div>
         </div>
       </div>
@@ -76,32 +76,40 @@ h2{
 .about{
   &Profile{
     background-color: #ffffff;
-    width: 90%;
+    width: 95%;
     margin: 30px auto;
     &Info{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 5px;
+      padding: 10px 5px;
+      @media (min-width: 701px){
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
       &Image{
-        width: 360px;
-        height: 240px;
+        width: 330px;
+        height: 220px;
         border: 1px solid black;
       }
       &Overview{
         background-color: #f1f1f1;
-        width: 40%;
+        width: 330px;
+        height: 220px;
+        @media (min-width: 701px){
+          width: 45%
+        }
+        @media (max-width: 700px){
+          margin: 0 auto;
+        }
         text-align: left;
-        padding: 0 20px;
+        padding: 0 10px;
         p{
-          font-size: 20px;
+          font-size: 18px;
         }
       }
     }
     &Career{
-      padding: 5px;
+      margin: 5px;
       background-color: #f1f1f1;
-
     }
   }
 }

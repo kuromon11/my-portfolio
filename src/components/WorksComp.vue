@@ -69,7 +69,6 @@
           <a href="https://github.com/kuromon11/traveler_blog" class="worksContentInfoGit">Github</a>
         </div>
       </div>
-
       <div class="worksContent">
         <img src="../assets/logo.png" class="worksContentImage">
         <div class="worksContentInfo">
@@ -111,7 +110,7 @@ h1{
   font-style: italic;
 }
 .works{
-  width: 90%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
