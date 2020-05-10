@@ -40,23 +40,26 @@ h1{
   font-family:'Comic Neue',cursive ;
   font-style: italic;
 }
-.home{
-  min-width: 700px;
-  &Title{
-    display: block;
-    height: 100px;
-    width: 100%;
-    margin: auto;
-    text-align: 100px;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: conter;
-    font-family:'Comic Neue',cursive ;
-    font-style: italic;
-  }
-  &Content{
-    display: flex;
-    justify-content: space-around;
+.main{
+  height: calc(100vh - 160px);
+  .home{
+    min-width: 700px;
+    &Title{
+      display: block;
+      height: 100px;
+      width: 100%;
+      margin: auto;
+      text-align: 100px;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: conter;
+      font-family:'Comic Neue',cursive ;
+      font-style: italic;
+    }
+    &Content{
+      display: flex;
+      justify-content: space-around;
+    }
   }
 }
 </style>

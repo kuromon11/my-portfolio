@@ -3,32 +3,32 @@
     <h1>Skill</h1>
     <div class="skill">
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/html.png" class="skillLanguageImage">
         <p class="skillLanguageName">HTML / Haml</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/css.png" class="skillLanguageImage">
         <p class="skillLanguageName">CSS</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/scss.png" class="skillLanguageImage">
         <p class="skillLanguageName">SCSS</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/javascript.png" class="skillLanguageImage">
         <p class="skillLanguageName">JavaScript</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/jquery.png" class="skillLanguageImage">
         <p class="skillLanguageName">jQuery</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/bootstrap.png" class="skillLanguageImage">
         <p class="skillLanguageName">Bootstrap</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
@@ -38,37 +38,37 @@
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/ruby.png" class="skillLanguageImage">
         <p class="skillLanguageName">Ruby</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/rubyonrails.png" class="skillLanguageImage">
         <p class="skillLanguageName">Ruby on Rails</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/php.png" class="skillLanguageImage">
         <p class="skillLanguageName">PHP</p>
         <p class="skillLanguageLevel">★☆☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/sql.png" class="skillLanguageImage">
         <p class="skillLanguageName">SQL</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/mysql.png" class="skillLanguageImage">
         <p class="skillLanguageName">MySQL</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/aws.png" class="skillLanguageImage">
         <p class="skillLanguageName">AWS</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
-        <img src="../assets/logo.png" class="skillLanguageImage">
+        <img src="../assets/github.png" class="skillLanguageImage">
         <p class="skillLanguageName">Git / GitHub</p>
         <p class="skillLanguageLevel">★★☆</p>
       </div>
@@ -94,6 +94,7 @@ h1{
 .skill{
   display: flex;
   width: 90%;
+  min-height: calc(100vh - 160px);
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;

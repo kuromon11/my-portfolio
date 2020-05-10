@@ -29,7 +29,6 @@ export default {
   position: fixed;
   z-index: 1;
   top: 0;
-
   &Left{
     width: 340px;
     height: 80px;

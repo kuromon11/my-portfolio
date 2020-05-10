@@ -7,9 +7,10 @@
 <style lang="scss" scoped>
 .footer{
   background-color: #03111a;
-  height: 100px;
+  height: 80px;
+  width: 100%;
   &Title{
-    line-height: 100px;
+    line-height: 80px;
     text-align: center;
     margin: 0 auto;
     color: white;
