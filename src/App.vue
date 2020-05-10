@@ -1,5 +1,5 @@
 <template>
-  <div id=#app>
+  <div id=app>
     <Header></Header>
     <transition
       name="fade"
@@ -38,6 +38,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #202d3a;
+  background: linear-gradient(0deg,#5995e4 0,#9ddbf0)
 }
 </style>

@@ -33,11 +33,11 @@ export default {
 
 <style lang="scss" scoped>
 h1{
-  margin: 20px;
+  margin: 20px 30px;
   line-height: 60px;
   font-size: 40px;
   font-weight: bold;
-  text-align: conter;
+  text-align: left;
   font-family:'Comic Neue',cursive ;
   font-style: italic;
 }
