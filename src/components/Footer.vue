@@ -1,6 +1,7 @@
 <template>
   <div class="footer">
-    <p class="footerTitle">&copy;2020 名前</p>
+    <p class="footerText">お問い合わせ：o71.kuromori.yoshiki@gmail.com</p>
+    <p class="footerText">&copy; Kuromori Yoshiki , 2020 All Rights Reserved.</p>
   </div>
 </template>
 
@@ -9,8 +10,8 @@
   background-color: #03111a;
   height: 80px;
   width: 100%;
-  &Title{
-    line-height: 80px;
+  &Text{
+    line-height: 40px;
     text-align: center;
     margin: 0 auto;
     color: white;

@@ -4,7 +4,7 @@
     <div class="home">
       <p class="homeTitle">〜 Kuromon's Portfolio 〜</p>
       <div class="homeContent">
-        <img src="../assets/logo.png" class="homeContentImage">
+        <img src="../assets/mypicture1.jpg" class="homeContentImage">
         <div class="homeContentMessage">
           <p>ただ今転職活動中！</p>
           <p>希望職種：Webエンジニア</p>
@@ -59,6 +59,11 @@ h1{
     &Content{
       display: flex;
       justify-content: space-around;
+      &Image{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+      }
     }
   }
 }
