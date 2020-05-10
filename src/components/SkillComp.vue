@@ -1,10 +1,10 @@
 <template>
   <div>
     <h1>Skill</h1>
-    <p>
-      ★：基礎作りの段階 / ★★：個人アプリ製作段階 / ★★★：実務経験済みもしくはそれ相当の技術が身についている段階<br>
-      (2020/05/10現在)
-    </p>
+    <h3>★：基礎作りの段階</h3>
+    <h3>★★：個人アプリ製作段階</h3>
+    <h3>★★★：実務経験済みもしくはそれ相当の技術が身についている段階</h3>
+    <h4>2020/05/10現在<br></h4>
     <div class="skill">
       <div class="skillLanguage">
         <img src="../assets/html.png" class="skillLanguageImage">
@@ -72,6 +72,11 @@
         <p class="skillLanguageLevel">★★☆</p>
       </div>
       <div class="skillLanguage">
+        <img src="../assets/nginx.png" class="skillLanguageImage">
+        <p class="skillLanguageName">Nginx</p>
+        <p class="skillLanguageLevel">★☆☆</p>
+      </div>
+      <div class="skillLanguage">
         <img src="../assets/github.png" class="skillLanguageImage">
         <p class="skillLanguageName">Git / GitHub</p>
         <p class="skillLanguageLevel">★★☆</p>
@@ -94,6 +99,17 @@ h1{
   text-align: left;
   font-family:'Comic Neue',cursive ;
   font-style: italic;
+}
+h3{
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+h4{
+  width: 90%;
+  text-align: right;
+  margin: 0 auto;
+
 }
 .skill{
   display: flex;
