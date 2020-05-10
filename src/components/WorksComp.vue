@@ -35,6 +35,7 @@
           <a href="http://52.196.62.187" class="worksContentInfoSite">サイト</a>
           <a href="https://github.com/kuromon11/freemarket_sample_71f" class="worksContentInfoGit">Github</a>
           <a href="https://docs.google.com/document/d/1GfHrYCxOgwuK_K9vjOEyGGjtBw8VV_j9XJvFd_OFMag/edit?usp=sharing" class="worksContentInfoSite" >説明文</a>
+          <h4>2020年4月作成</h4>
         </div>
       </div>
       
@@ -67,6 +68,7 @@
           <br>
           <a href="http://japan-traveler-blog.com/" class="worksContentInfoSite">サイト</a>
           <a href="https://github.com/kuromon11/traveler_blog" class="worksContentInfoGit">Github</a>
+          <h4>2020年4月作成</h4>        
         </div>
       </div>
       <div class="worksContent">
@@ -88,6 +90,7 @@
           <br>
           <a href="https://kuromon-portfolio.netlify.app" class="worksContentInfoSite">サイト</a>
           <a href="https://github.com/kuromon11/my-portfolio" class="worksContentInfoGit">Github</a>
+          <h4>2020年5月作成</h4>        
         </div>
       </div>
     </div>
@@ -119,7 +122,7 @@ h1{
   margin: 5px auto;
   &Content{
     list-style: none;
-    height: 820px;
+    height: 840px;
     width: 320px;
     margin: 1%;
     background-color: #f1f1f1;
