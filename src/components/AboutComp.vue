@@ -5,7 +5,7 @@
       <div class="aboutProfile">
         <h2>自己紹介</h2>
         <div class="aboutProfileInfo">
-          <div class="aboutProfileInfoImage">写真</div>
+          <img src="../assets/logo.png" class="workContentImage">
           <div class="aboutProfileInfoOverview">
             <p>名前：本名</p>
             <p>ニックネーム：くろもん
@@ -65,7 +65,7 @@ h2{
 }
 .about{
   &Profile{
-    background-color: #eeeeee;
+    background-color: #ffffff;
     width: 90%;
     margin: 30px auto;
     &Info{
@@ -77,9 +77,14 @@ h2{
         height: 100px;
         background-color: aqua;
       }
+      &Overview{
+        background-color: #f1f1f1;
+      }
     }
     &Career{
       padding: 5px;
+      background-color: #f1f1f1;
+
     }
   }
 }

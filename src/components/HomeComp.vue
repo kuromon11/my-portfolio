@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <h1>Home</h1>
     <div class="home">
       <p class="homeTitle">〜 Kuromon's Portfolio 〜</p>
@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 h1{
-  margin: 20px 30px;
+  margin: 20px;
   line-height: 60px;
   font-weight: bold;
   text-align: left;

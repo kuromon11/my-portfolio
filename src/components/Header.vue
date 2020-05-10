@@ -30,7 +30,10 @@ export default {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
   z-index: 1;
+  top: 0;
+
   &Left{
     width: 340px;
     height: 80px;
