@@ -4,19 +4,27 @@
     <div class="about">
       <div class="aboutProfile">
         <h2>自己紹介</h2>
-        <div class="aboutProfileImage">写真</div>
-        <p>名前：くろもん</p>
-        <p>本名：</p>
-        <p>誕生日：1993年11月19日 26歳</p>
+        <div class="aboutProfileInfo">
+          <div class="aboutProfileInfoImage">写真</div>
+          <div class="aboutProfileInfoOverview">
+            <p>名前：本名</p>
+            <p>ニックネーム：くろもん
+              <router-link to="/">@black_kuromon</router-link>
+            </p>
+            <p>誕生日：1993年11月19日 26歳</p>
+          </div>
+        </div>
       </div>
-      <div class="aboutCareer">
+      <div class="aboutProfile">
         <h2>学歴・経歴</h2>
-        <p>2013年4月~2017年3月 某大学 工学部電気電子工学科</p>
-        <p>2017年4月〜2020年1月 某会社 電気設備の施工管理</p>
-        <p>概要・学んだこと</p>
-        <p>2020年2月〜2020年4月中旬 プログラミングスクール TECH::CAMP</p> 
-        <p>概要・学んだこと</p>
-        <p>現在、転職活動中</p>
+        <div class="aboutProfileCareer">
+          <p>2013年4月~2017年3月 某大学 工学部電気電子工学科</p>
+          <p>2017年4月〜2020年1月 某会社 電気設備の施工管理</p>
+          <p>概要・学んだこと</p>
+          <p>2020年2月〜2020年4月中旬 プログラミングスクール TECH::CAMP</p> 
+          <p>概要・学んだこと</p>
+          <p>現在、転職活動中</p>
+        </div>
       </div>
     </div>
   </div>
@@ -55,5 +63,24 @@ h2{
   font-family:'Comic Neue',cursive ;
   font-style: italic;
 }
-
+.about{
+  &Profile{
+    background-color: #eeeeee;
+    width: 90%;
+    margin: 30px auto;
+    &Info{
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+      &Image{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+      }
+    }
+    &Career{
+      padding: 5px;
+    }
+  }
+}
 </style>
