@@ -30,11 +30,11 @@
             期限：12月/20年<br>
             セキュリティコード：123     
           </p>          
-          <p class="worksContentInfoText">言語: Haml・SCSS・JavaScript・jQuery・Ruby・RubyonRails</p>
-          <p class="worksContentInfoText">環境: MySQL・unicorn・nginx・Capistrano・AWS</p>
+          <p class="worksContentInfoText">言語: Ruby・RubyonRails・AWS</p>
           <br>
           <a href="http://52.196.62.187" class="worksContentInfoSite">サイト</a>
           <a href="https://github.com/kuromon11/freemarket_sample_71f" class="worksContentInfoGit">Github</a>
+          <a href="https://docs.google.com/document/d/1GfHrYCxOgwuK_K9vjOEyGGjtBw8VV_j9XJvFd_OFMag/edit?usp=sharing" class="worksContentInfoSite" >説明文</a>
         </div>
       </div>
       
@@ -43,10 +43,8 @@
         <div class="worksContentInfo">
           <h2 class="worksContentInfoTitle">JapanTraveler</h2>
           <p class="worksContentInfoText">
-            テックキャンプ在学中に製作したアプリです。
-            <br>
-            日本国内に特化した旅行系ブログアプリです。
-            <br>
+            テックキャンプ在学中に製作したアプリです。<br>
+            日本国内に特化した旅行系ブログアプリです。<br>
             日本国内の様々な都道府県を体感していただけます。
           </p>
           <p class="worksContentInfoText">
@@ -59,14 +57,14 @@
             ユーザー：test@test<br>
             パスワード：testtest
           </p>
-          <p class="worksContentInfoText">言語: Haml・SCSS・JavaScript・jQuery・Bootstrap・Ruby・RubyonRails</p>
-          <p class="worksContentInfoText">環境: MySQL・unicorn・nginx・Capistrano・AWS</p>
+          <p class="worksContentInfoText">言語: Ruby・RubyonRails・AWS</p>
           <p class="worksContentInfoText">
             主な特徴：<br>
             記事として、タイトル・本文・複数枚画像・タグ・旅行した都道府県を投稿できます。<br>
             レスポンシブデザインに対応しているので、お手持ちのスマートフォンで使うことができます。<br>
             気になる記事を容易に検索できます（都道府県検索・タグ検索・ユーザー毎の記事検索）。
           </p>
+          <br>
           <a href="http://japan-traveler-blog.com/" class="worksContentInfoSite">サイト</a>
           <a href="https://github.com/kuromon11/traveler_blog" class="worksContentInfoGit">Github</a>
         </div>
@@ -75,12 +73,22 @@
       <div class="worksContent">
         <img src="../assets/logo.png" class="worksContentImage">
         <div class="worksContentInfo">
-          <h2 class="worksContentInfoTitle">Tavinow</h2>
-          <p class="worksContentInfoText">自分の行程に合わせた天気予報がわかるアプリ</p>
-          <p class="worksContentInfoText">Language : Ruby・RubyonRails・AWS</p>
+          <h2 class="worksContentInfoTitle">Kuromon's Portfolio</h2>
+          <p class="worksContentInfoText">
+            自分自身を紹介するポートフォリオです。<br>
+            Vue.jsを使ってSPA(シングルページアプリケーション)のポートフォリオを作成しました。<br>
+            こちらは随時更新していきます。
+          </p>
+          <p class="worksContentInfoText">言語：JavaScript(Vue.js)・Netlify</p>
+          <p class="worksContentInfoText">
+            主な特徴：<br>
+            Aboutでは、簡単な自己紹介に加えて経歴・学歴を掲載しています。<br>
+            Worksでは、今まで製作したアプリを成果物として掲載しています。<br>
+            Skillでは、習得したプログラミングスキルの一覧を掲載しています。
+          </p>
           <br>
-          <a href="http://52.196.62.187" class="worksContentInfoSite">サイト</a>
-          <a href="https://github.com/kuromon11/freemarket_sample_71f" class="worksContentInfoGit">Github</a>
+          <a href="https://kuromon-portfolio.netlify.app" class="worksContentInfoSite">サイト</a>
+          <a href="https://github.com/kuromon11/my-portfolio" class="worksContentInfoGit">Github</a>
         </div>
       </div>
     </div>
@@ -103,16 +111,17 @@ h1{
   font-style: italic;
 }
 .works{
-  width: 90%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   background-color: #ffffff;
-  margin: 10px auto;
+  margin: 8px auto;
   &Content{
     list-style: none;
-    width: 45%;
+    height: 750px;
+    width: 370px;
     margin: 1%;
     background-color: #f1f1f1;
     border: 1px solid black;
@@ -124,6 +133,7 @@ h1{
         margin: 0 10px;
         padding: 5px 10px;
         border-radius: 5px;
+        height: 200px;
       }
       &Site:hover{
         background-color: #00aaff;
@@ -138,6 +148,7 @@ h1{
         border-radius: 5px;
         border-color: #171515;
         color: #171515;
+        height: 200px;
       }
       &Git:hover{
         background-color: #171515;
