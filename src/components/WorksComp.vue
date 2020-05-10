@@ -3,7 +3,7 @@
     <h1>Works</h1>
     <div class="works">
       <div class="worksContent">
-        <img src="../assets/logo.png" class="worksContentImage">
+        <img src="../assets/app1.jpg" class="worksContentImage">
         <div class="worksContentInfo">
           <h2 class="worksContentInfoTitle">Furima(フリマアプリ)</h2>
           <router-link to="/"></router-link>
@@ -39,7 +39,7 @@
       </div>
       
       <div class="worksContent">
-        <img src="../assets/logo.png" class="worksContentImage">
+        <img src="../assets/app2.jpg" class="worksContentImage">
         <div class="worksContentInfo">
           <h2 class="worksContentInfoTitle">JapanTraveler</h2>
           <p class="worksContentInfoText">
@@ -111,29 +111,32 @@ h1{
   font-style: italic;
 }
 .works{
-  width: 95%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   background-color: #ffffff;
-  margin: 8px auto;
+  margin: 5px auto;
   &Content{
     list-style: none;
-    height: 750px;
-    width: 370px;
+    height: 820px;
+    width: 320px;
     margin: 1%;
     background-color: #f1f1f1;
     border: 1px solid black;
+    &Image{
+      width: 320px;
+      height: 210px;
+    }
     &Info{
       &Site{
         border: 1px solid #00aaff;
         text-decoration: none;
         color: #00aaff;
-        margin: 0 10px;
-        padding: 5px 10px;
+        margin: 0 5px;
+        padding: 10px 15px;
         border-radius: 5px;
-        height: 200px;
       }
       &Site:hover{
         background-color: #00aaff;
@@ -144,11 +147,10 @@ h1{
         text-decoration: none;
         color: #00aaff;
         margin: 0 10px;
-        padding: 5px 10px;
+        padding: 10px 15px;
         border-radius: 5px;
         border-color: #171515;
         color: #171515;
-        height: 200px;
       }
       &Git:hover{
         background-color: #171515;
