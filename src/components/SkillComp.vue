@@ -118,12 +118,12 @@ h4{
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  margin: 10px auto;
+  margin: 5px auto;
   background-color: white;
   &Language{
     background-color: #f1f1f1;
     padding: 5px;
-    margin: 5px 15px;
+    margin: 10px 15px;
     &Image{
       width: 120px;
       height: 120px;
