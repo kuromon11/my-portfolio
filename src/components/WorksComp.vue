@@ -7,7 +7,11 @@
         <div class="worksContentInfo">
           <h2 class="worksContentInfoTitle">Furima(フリマアプリ)</h2>
           <router-link to="/"></router-link>
-          <p class="worksContentInfoText">テックキャンプの最終課題にて、5人チームでフリーマーケットのアプリケーションを作成しました。</p>
+          <p class="worksContentInfoText">
+            テックキャンプの最終課題にて、5人チームでフリーマーケットのアプリケーションを作成しました。
+            <br>
+            マークアップとサーバーサイドの作成に加えて、デプロイ全般を担当しました。
+          </p>
           <p class="worksContentInfoText">
             認証：<br>
             ユーザー：tech<br>
@@ -26,7 +30,8 @@
             期限：12月/20年<br>
             セキュリティコード：123     
           </p>          
-          <p class="worksContentInfoText">Language : Ruby・RubyonRails・AWS</p>
+          <p class="worksContentInfoText">言語: Haml・SCSS・JavaScript・jQuery・Ruby・RubyonRails</p>
+          <p class="worksContentInfoText">環境: MySQL・unicorn・nginx・Capistrano・AWS</p>
           <br>
           <a href="http://52.196.62.187" class="worksContentInfoSite">サイト</a>
           <a href="https://github.com/kuromon11/freemarket_sample_71f" class="worksContentInfoGit">Github</a>
@@ -36,10 +41,32 @@
       <div class="worksContent">
         <img src="../assets/logo.png" class="worksContentImage">
         <div class="worksContentInfo">
-          <h2 class="worksContentInfoTitle">Tavinow</h2>
-          <p class="worksContentInfoText">自分の行程に合わせた天気予報がわかるアプリ</p>
-          <p class="worksContentInfoText">Language : Ruby・RubyonRails・AWS</p>
-          <br>
+          <h2 class="worksContentInfoTitle">JapanTraveler</h2>
+          <p class="worksContentInfoText">
+            テックキャンプ在学中に製作したアプリです。
+            <br>
+            日本国内に特化した旅行系ブログアプリです。
+            <br>
+            日本国内の様々な都道府県を体感していただけます。
+          </p>
+          <p class="worksContentInfoText">
+            認証：<br>
+            ユーザー：japan<br>
+            パスワード：kagawa
+          </p>
+          <p class="worksContentInfoText">
+            テストアカウント：<br>
+            ユーザー：test@test<br>
+            パスワード：testtest
+          </p>
+          <p class="worksContentInfoText">言語: Haml・SCSS・JavaScript・jQuery・Bootstrap・Ruby・RubyonRails</p>
+          <p class="worksContentInfoText">環境: MySQL・unicorn・nginx・Capistrano・AWS</p>
+          <p class="worksContentInfoText">
+            主な特徴：<br>
+            記事として、タイトル・本文・複数枚画像・タグ・旅行した都道府県を投稿できます。<br>
+            レスポンシブデザインに対応しているので、お手持ちのスマートフォンで使うことができます。<br>
+            気になる記事を容易に検索できます（都道府県検索・タグ検索・ユーザー毎の記事検索）。
+          </p>
           <a href="http://japan-traveler-blog.com/" class="worksContentInfoSite">サイト</a>
           <a href="https://github.com/kuromon11/traveler_blog" class="worksContentInfoGit">Github</a>
         </div>
