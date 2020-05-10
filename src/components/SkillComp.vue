@@ -1,6 +1,10 @@
 <template>
   <div>
     <h1>Skill</h1>
+    <p>
+      ★：基礎作りの段階 / ★★：個人アプリ製作段階 / ★★★：実務経験済みもしくはそれ相当の技術が身についている段階<br>
+      (2020/05/10現在)
+    </p>
     <div class="skill">
       <div class="skillLanguage">
         <img src="../assets/html.png" class="skillLanguageImage">
@@ -35,7 +39,7 @@
       <div class="skillLanguage">
         <img src="../assets/logo.png" class="skillLanguageImage">
         <p class="skillLanguageName">Vue.js</p>
-        <p class="skillLanguageLevel">★★☆</p>
+        <p class="skillLanguageLevel">★☆☆</p>
       </div>
       <div class="skillLanguage">
         <img src="../assets/ruby.png" class="skillLanguageImage">
