@@ -12,6 +12,7 @@
               <router-link to="/">@black_kuromon</router-link>
             </p>
             <p>誕生日：1993年11月19日 26歳</p>
+            <p>強み：ハングリー精神・課題発見能力</p>
           </div>
         </div>
       </div>
@@ -71,6 +72,7 @@ h2{
     &Info{
       display: flex;
       justify-content: space-around;
+      align-items: center;
       padding: 5px;
       &Image{
         width: 100px;
