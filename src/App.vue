@@ -1,44 +1,46 @@
 <template>
-  <div>
+  <div id=app>
     <Header></Header>
-    <p v-if="msg.length > 0">
-      {{msg}}
-    </p>
-    <p v-else>
-      no text
-    </p>
-    <input type="text" v-model="msg">
-    <button @click="clear()">clear</button>
+    <transition
+      name="fade"
+      mode="out-in"
+      @before-enter="beforeEnter"
+    ></transition>
+    <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
+import Footer from './components/Footer'
+// リセットCSS
+import 'normalize.css'
 
 export default {
   components: {
-    Header
-  },
-  data () {
-    return {
-      msg: 'Hello World!'
-    };
+    Header,
+    Footer
   },
   methods: {
-    clear () {
-      this.msg = ''
+    beforeEnter() {
+      this.$root.$emit("triggerScroll");
     }
   }
 }
 </script>
 
 <style>
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300&display=swap&subset=japanese'); */
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap");
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #202d3a;
+  background: linear-gradient(0deg,#5995e4 0,#9ddbf0);
+  margin-top: 80px;
+  min-height: calc(100vh - 80px);
 }
 </style>
