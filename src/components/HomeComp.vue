@@ -6,10 +6,18 @@
       <div class="homeContent">
         <img src="../assets/mypicture1.jpg" class="homeContentImage">
         <div class="homeContentMessage">
-          <p>ただ今転職活動中！</p>
+          <p class="homeContentMessageTitle">現在転職活動中！</p>
           <p>希望職種：Webエンジニア</p>
           <p>希望勤務地：大阪・東京</p>
-          <p>希望年収：320万円/年以上</p>
+          <p>希望年収：330万円/年</p>
+          <p>
+            Twitterアカウントは
+            <a href="https://twitter.com/black_kuromon" class="worksContentInfoSite">こちら</a>
+          </p>
+          <p>
+            GitHubアカウントは
+            <a href="https://github.com/kuromon11" class="worksContentInfoSite">こちら</a>
+          </p>
         </div>
       </div>
     </div>
@@ -50,7 +58,7 @@ h1{
       width: 100%;
       margin: auto;
       text-align: 100px;
-      font-size: 32px;
+      font-size: 40px;
       font-weight: bold;
       text-align: conter;
       font-family:'Comic Neue',cursive ;
@@ -63,6 +71,14 @@ h1{
         width: 300px;
         height: 300px;
         border-radius: 50%;
+      }
+      &Message{
+        height: 200px;
+        font-size: 24px;
+        &Title{
+          font-weight: bold;
+          font-size: 30px;
+        }
       }
     }
   }
